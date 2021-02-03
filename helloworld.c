@@ -5,7 +5,8 @@ Hola
 Mundo
 */
 
-int main() { // Main Function
+int main()
+{ // Main Function
   printf("Hello World \n");
   return 0;
 }
