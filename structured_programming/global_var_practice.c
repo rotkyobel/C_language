@@ -1,32 +1,32 @@
 #include <stdio.h>
 
 char studentName[30];
-int studentScore;
+float studentScore;
 
 void exam()
 {
   if (studentScore >= 7 && studentScore <= 10)
   {
-    printf("El estudiante %s ha sido aprobado\n", studentName);
+    printf("\nEl estudiante %s aprobo con una calificacion de %.2f\n", studentName, studentScore);
   }
-  else if (studentScore < 7)
+  else if (studentScore < 7 && studentScore >= 0)
   {
-    printf("El estudiante %s ha sido desaprobado\n", studentName);
+    printf("\nEl estudiante %s desaprobo con una calificacion de %.2f\n", studentName, studentScore);
   }
   else
   {
-    printf("Ingrese una nota valida\n");
+    printf("\nIngrese una nota valida [0 - 10]\n");
   }
 }
 
 int main()
 {
 
-  printf("Ingrese el nombre del estudiante: ");
+  printf("\nIngrese el nombre del estudiante: ");
   scanf("%s", &studentName);
 
-  printf("\nIngrese la calificacion: ");
-  scanf("%i", &studentScore);
+  printf("Ingrese la calificacion: ");
+  scanf("%f", &studentScore);
 
   exam();
   return 0;
