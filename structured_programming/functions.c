@@ -13,7 +13,7 @@ int main()
 
   int additionRes = Addition(3, 4);
 
-  printf("Resultado es: %i", additionRes);
+  printf("Resultado es: %i\n", additionRes);
 
   return 0;
 }

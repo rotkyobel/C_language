@@ -9,16 +9,16 @@ int changeFunction(char option, float value)
   {
     converted = value * 3.65;
 
-    printf("%.2f Dolares es equivalente a %.2f Soles", value, converted);
+    printf("%.2f Dolares es equivalente a %.2f Soles\n", value, converted);
   }
   else if (option == 'D' || option == 'd')
   {
     converted = value / 3.65;
-    printf("%.2f Soles es equivalente a %.2f Dolares", value, converted);
+    printf("%.2f Soles es equivalente a %.2f Dolares\n", value, converted);
   }
   else
   {
-    printf("Ingrese una opcion valida");
+    printf("Ingrese una opcion valida\n");
   }
 }
 
