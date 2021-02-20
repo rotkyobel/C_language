@@ -23,16 +23,16 @@ int main()
   switch (type)
   {
   case 1:
-    printf("Le corresponde pagar $500");
+    printf("Le corresponde pagar $500\n");
     break;
   case 2:
-    printf("Le corresponde pagar $3000");
+    printf("Le corresponde pagar $3000\n");
     break;
   case 3:
-    printf("Le corresponde pagar $300");
+    printf("Le corresponde pagar $300\n");
     break;
   default:
-    printf("Vehiculo no autorizado");
+    printf("Vehiculo no autorizado\n");
     break;
   }
 
