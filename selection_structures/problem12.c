@@ -1,8 +1,10 @@
-// Problema 12: Seleccionar un tipo de vehiculo e indicar el peaje a pagar segun un valor numerico.
-// 1 - Turismo, peaje = $500
-// 2 - Autobus, peaje = $3000
-// 3 - Motocicleta, peaje = $300
-// Caso contrario - Vehiculo no autorizado
+/*
+TODO: Problema 12: Seleccionar un tipo de vehiculo e indicar el peaje a pagar segun un valor numerico.
+* 1 - Turismo, peaje = $500
+* 2 - Autobus, peaje = $3000
+* 3 - Motocicleta, peaje = $300
+* Caso contrario - Vehiculo no autorizado
+*/
 
 #include <stdio.h>
 
