@@ -1,27 +1,43 @@
-// TODO 04: Multiplos de 5 desde 1 hasta n
+// TODO 05: Sumar 1-2+3-4...n
+/*
+  * impares (+)
+  * pares (-)
+
+  * suma_pares = -2-4-6...
+  * suma_impares = 1+3+5...
+
+  * suma = suma_pares + suma_impares
+
+  * 1-2+3-4+5-6
+  * -1+3-4+5-6
+  * 2-4+5-6
+  * -2+5-6
+  * 3-6
+  * -3
+ */
 
 #include <stdio.h>
 
 int main()
 {
 
-  int n, i;
+  int numero, i = 1, suma = 0;
 
-  printf("Digite el total de numeros a comprobar: ");
-  scanf("%i", &n);
+  printf("Digite un numero: ");
+  scanf("%i", &numero);
 
-  i = 1;
-
-  while (i <= n)
+  while (i <= numero)
   {
-
-    if (i % 5 == 0)
+    if (i % 2 == 0)
     {
-      printf("%i ", i);
+      suma -= i;
     }
-
+    else
+    {
+      suma += i;
+    }
     i++;
   }
-
+  printf("El resultado es: %i\n", suma);
   return 0;
 }
