@@ -23,7 +23,7 @@ int main()
     }
     n++;
   }
-  printf("La suma de los pares entre los dos numeros es: %i", suma);
+  printf("La suma de los pares entre los dos numeros es: %i\n", suma);
 
   return 0;
 }
