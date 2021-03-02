@@ -1,4 +1,4 @@
-// TODO 06: Sumar pares desde n hasta m
+// Problem 06: Sumar pares desde n hasta m
 
 #include <stdio.h>
 
