@@ -22,5 +22,7 @@ int main() {
 void invertir(int n) {
   printf("%i", n % 10);
 
-  if(n > 10) invertir(n / 10);
+  if(n > 10) {
+    invertir(n / 10);
+  }
 }
